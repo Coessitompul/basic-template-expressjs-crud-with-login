@@ -1,0 +1,1 @@
+ini saya buat siapa tahu kedepannya akan update api, jadi bisa lebih gampang, api yang sama tapi yang beda versinya, supaya developernya tidak kebingungan, dan tidak report gonta-ganti api padahal apinya sama, cuma beda versi saja

@@ -1,0 +1,33 @@
+
+GET http://localhost:3000/v1/api/users
+
+###
+POST http://localhost:3000/v1/api/register
+Content-Type: application/json
+
+{
+    "firstname": "coes",
+    "lastname": "sitompul",
+    "email": "coes@gmail.com",
+    "password": "123456",
+    "confPassword": "123456"
+}   
+
+
+###
+POST http://localhost:3000/v1/api/login
+Content-Type: application/json
+
+{
+    "email": "contoh@mail.com",
+    "password": "Password1!"
+}   
+
+###
+GET http://localhost:3000/v1/api/users
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjEsImZpcnN0bmFtZSI6ImNvZXMiLCJlbWFpbCI6ImNvZXNAZ21haWwuY29tIiwiaWF0IjoxNzMwOTg2NTMzLCJleHAiOjE3MzExNTkzMzN9.YvO8IM1yZVJ7Nl9iBQnM-j9NFBBbgZhLnRi0orWvQok
+
+###
+DELETE http://localhost:3000/v1/api/logout
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjIsIm5hbWUiOiJjb250b2giLCJlbWFpbCI6ImNvbnRvaEBtYWlsLmNvbSIsImlhdCI6MTczMTg1MTk0MiwiZXhwIjoxNzMyMDI0NzQyfQ.ae04idJVRMrLL7HNxloJI3nSgQZfdheo4laJXjXa7aM
+
